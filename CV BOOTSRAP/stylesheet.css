@@ -1,7 +1,14 @@
 /***** Définition des fontes et des tailles *******************************************************/
 h1 { font-family:'Source Sans Pro' ;font-size:40px;color: white;} 
 h2 { font-family:'caviar_dreamsregular' ;font-size:35px;color:white ;}
-h3 { font-family:'caviar_dreamsregular' ;font-size:20px;color:white ;background-color:rgb(17,31,66);}
+h3 { font-family:'caviar_dreamsregular' ;	font-size:20px;
+											color:white ;
+											margin-left:-10px ;
+											margin-right:-5px ;
+											padding-left:10px ;
+											padding-top:5px;
+											padding-bottom:5px ;
+											background-color:rgb(17,31,66);}
 h4 { font-family:'caviar_dreamsregular' ;color:white ;background-color:rgb(17,31,66);}
 h5 { font-family:'caviar_dreamsregular' ;color:white;}
 p { font-family:'Source Sans Pro' ; font-size:16px;color:rgb(17,31,66);}
@@ -34,24 +41,28 @@ header {
 main { background-color:white ;}
 
 iframe {
-    width:100%;
+	margin-left:10px ;
+	margin-top:-20px ;
+    width:90%;
 	overflow:hidden;
-	border:solid 10px white;  
+	border:solid 10px white; 
 }
 
 .footer_liens {
-	margin-top:10px ;
 	margin:auto ;
-}
+	margin-top:20px ;
+	padding-left:20px ; }
 
 .b_circle {
-	margin-top:20px ;
-	margin-left:8px ;
+	margin-top:10px ;
+	padding-top:10px ; padding-left:10px ;
 	display: inline-block;
 	border:5px solid white ;
 	border-radius: 50%;
 	width:80px ;
-	height:80px;
-    padding-left: 10px;
-    padding-top: 10px;
-}
+	height:80px; }   
+	
+.b_circle:hover { opacity:0.5 ; border:5px solid rgba(255,255,255,0.7) ; }
+
+#tab {	margin-top:10px; }
+
