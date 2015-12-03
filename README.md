@@ -10,3 +10,7 @@ Exercice 2 :
 Réaliser une maquette du site Divshot.
 
 Visible ----> http://htmlpreview.github.io/?https://github.com/serge-ci36/semaine-06/blob/master/DIVSHOT/index.html
+
+Mise en pratique exercice 2 pour le fun !
+
+Visible ----> http://htmlpreview.github.io/?https://github.com/serge-ci36/semaine-06/blob/master/PRATIQUE/Index_de_travail.html
