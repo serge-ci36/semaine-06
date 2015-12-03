@@ -80,7 +80,6 @@ p {	display: 	inline-block;
 	
 /**** D�finition des curseurs **************************************************/
 .c-type1 {
-    display: inline-block;
 	float: right;
 	margin-right: 15px;
 	margin-top: 24px;
@@ -89,7 +88,6 @@ p {	display: 	inline-block;
 	background: url(../images/c-type1-blanc.png); }
 	
 .c-type2 {
-    display: inline-block;
 	float: right;
 	margin-right: 15px;
 	margin-top: 24px;
