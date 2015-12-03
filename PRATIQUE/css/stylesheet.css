@@ -54,7 +54,7 @@ p {	display: 	inline-block;
 	background-repeat: no-repeat;
  }
 	
-/**** Définition taille block 1x1 ************************************************/
+/**** Définition taille block 2x1 ************************************************/
 .bloc-2x1 {
     position: relative;
 	height:   264px;
@@ -66,7 +66,7 @@ p {	display: 	inline-block;
 	background-repeat: no-repeat;
  }
 
-/**** Définition taille block 1x1 ***********************************************/
+/**** Définition taille block 2x2 ***********************************************/
 .bloc-2x2 {
     position:	relative;
 	border:		5px solid rgb(0,0,0) /** gris foncé **/;
@@ -89,7 +89,7 @@ p {	display: 	inline-block;
     margin-left:   0px;
     margin-right:  0px; }
 	
-/******** suppression dordure D et G ********************************************/	
+/******** suppression bordure D et G ********************************************/	
 .row {
     margin-right: -5px ;
     margin-left:  -5px ; 	}	

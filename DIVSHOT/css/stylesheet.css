@@ -1,10 +1,10 @@
 /*************************************************************************************/
-body {	background-color:rgb(64,64,64) /** gris foncé **/; 
+body {	background-color:rgb(64,64,64) /** gris foncï¿½ **/; 
 		height: 100% ;
 		margin:0px ;
 		overflow-x: hidden /*** suppression scroll bar horizontale ****/ ;}
 
-/********** Définition du haut de page **********************************************/		
+/********** Dï¿½finition du haut de page **********************************************/		
 header {	background-color:rgb(55,187,210) /** bleu ciel **/;
 			height: 120px;
 			color:rgb(255,255,255) /** blanc **/ ;
@@ -27,7 +27,7 @@ h1 {	display: 	inline-block;
 		font-size:	30px;
 		color:		rgb(255,255,255) /** blanc **/ ; }
 		
-/********** Définition du texte paragraphe **********************************************/		
+/********** Dï¿½finition du texte paragraphe **********************************************/		
 p {	display: 	inline-block;
     color: 		rgb(255,255,255) /** blanc **/ ;
     font-size: 	20px;
@@ -41,28 +41,28 @@ p {	display: 	inline-block;
     margin-right: auto ; 
 	margin-bottom: 20px          ;}	
 	
-/**** Définition taille block 1x1 **************************************************/
+/**** Dï¿½finition taille block 1x1 **************************************************/
 .bloc-1x1 {
     position: relative;
     height:   255px;
-	border:   5px solid rgb(64,64,64) /** gris foncé **/;
+	border:   5px solid rgb(64,64,64) /** gris foncï¿½ **/;
     padding-top:40px; }
 	
-/**** Définition taille block 1x1 ************************************************/
+/**** Dï¿½finition taille block 2x1 ************************************************/
 .bloc-2x1 {
     position: relative;
 	height:   255px;
-	border:   5px solid rgb(64,64,64) /** gris foncé **/; 	
+	border:   5px solid rgb(64,64,64) /** gris foncï¿½ **/; 	
     padding-top:40px; }
 
-/**** Définition taille block 1x1 ***********************************************/
+/**** Dï¿½finition taille block 2x2 ***********************************************/
 .bloc-2x2 {
     position:	relative;
-	border:		5px solid rgb(64,64,64) /** gris foncé **/;
+	border:		5px solid rgb(64,64,64) /** gris foncï¿½ **/;
 	height: 	510px;
     padding-top:110px; }
 	
-/**** Définition de mise place des blocks ***************************************/
+/**** Dï¿½finition de mise place des blocks ***************************************/
 .col-md-4, .col-md-6, .col-md-12 {
     padding-right: 0;
     padding-left:  0; }	
@@ -73,12 +73,12 @@ p {	display: 	inline-block;
     margin-left:   0px;
     margin-right:  0px; }
 	
-/******** suppression dordure D et G ********************************************/	
+/******** suppression bordure D et G ********************************************/	
 .row {
     margin-right: -5px ;
     margin-left:  -5px ; 	}	
 	
-/**** Définition des curseurs **************************************************/
+/**** Dï¿½finition des curseurs **************************************************/
 .c-type1 {
     display: inline-block;
 	float: right;
@@ -114,14 +114,14 @@ p {	display: 	inline-block;
 .lien:hover .c-type1 .c-gris,
 .lien:hover .c-type2 .c-gris { background-size: 15px 15px ; background-repeat: no-repeat ; }
 	
-/**** Définition de la couleur grise pour le texte et curseur **************************/
+/**** Dï¿½finition de la couleur grise pour le texte et curseur **************************/
 .gris {	color: rgb(64,64,64) ;  }	
  
-.lien:hover p		{ color: rgb( 64, 64, 64);} /**** texte survolé blanc > gris********/ 
+.lien:hover p		{ color: rgb( 64, 64, 64);} /**** texte survolï¿½ blanc > gris********/ 
 	
-.lien:hover p.gris	{ color: rgb(245,245,245);} /**** texte survolé gris > blanc********/
+.lien:hover p.gris	{ color: rgb(245,245,245);} /**** texte survolï¿½ gris > blanc********/
 
-/**** Définition de la position des boites fonces **************************************/
+/**** Dï¿½finition de la position des boites fonces **************************************/
 .lien {
     position:absolute;
     bottom:0px;
@@ -130,7 +130,7 @@ p {	display: 	inline-block;
     height: 60px;
     font-weight: 600; }
 	
-/**** Définition des couleurs ****************************************************/
+/**** Dï¿½finition des couleurs ****************************************************/
 .blanc-pale 	{     background-color: rgb(245,245,245); }
 .blanc-fonce	{     background-color: rgb(153,153,153); }
 .rose-pale 		{     background-color: rgb(245,137,125); }
