@@ -7,25 +7,25 @@ header {	background-color:						rgb(000,000,000) ; }	/** noir **/
 .bloc-2x1 { border:   	5px solid 					rgb(000,000,000) ;	}	/** noir **/ 	
 .bloc-2x2 {	border:		5px solid 					rgb(000,000,000) ;	}	/** noir **/
 			
-.bloc-1x1 { background:	url(back-box.png); }	/*** pour mettre ou enlever l ombre ***/
-.bloc-2x1 { background: url(back-box.png); }	/*** pour mettre ou enlever l ombre ***/
-.bloc-2x2 {	background: url(back-box.png); }	/*** pour mettre ou enlever l ombre ***/
+.bloc-1x1 { background:	url(../images/back-box.png); }	/*** pour mettre ou enlever l ombre ***/
+.bloc-2x1 { background: url(../images/back-box.png); }	/*** pour mettre ou enlever l ombre ***/
+.bloc-2x2 {	background: url(../images/back-box.png); }	/*** pour mettre ou enlever l ombre ***/
 .bloc-1x1, .bloc-2x1, .bloc-2x2 {background-position: left top, right bottom ; }
-/********** Définition des couleurs blocks ********************************************/	
+/********** Dï¿½finition des couleurs blocks ********************************************/	
 	
-p {	color: 		rgb(255,255,255) ; } /** caractères des liens blanc **/ 
+p {	color: 		rgb(255,255,255) ; } /** caractï¿½res des liens blanc **/ 
 
-/***** Définition des menus ***********************************************************/
+/***** Dï¿½finition des menus ***********************************************************/
 .active a		{	background-color:#8B0000 ; } /** fond onglet actif ****************/  
 .non-active a	{	background-color:rgb(40,40,40); } /** fond onglet inactif  ********/
 
 h1 				{ color : rgb(255,255,255) ; }	/** caractere fenetre active blanc ****/ 
 
-.non-active h1			{ color : #696969 ; } /** fenetre iactive gris foncé  *********/ 
+.non-active h1			{ color : #696969 ; } /** fenetre iactive gris foncï¿½  *********/ 
 
-.non-active h1:hover	{ color : white ; } /****** éclaici les menus inactifs ********/
+.non-active h1:hover	{ color : white ; } /****** ï¿½claici les menus inactifs ********/
 
-/**** Définition des couleurs *********************************************************/
+/**** Dï¿½finition des couleurs *********************************************************/
 .blanc-pale 	{     background-color: #778899; } /*** fond box **********************/
 /************************************************/
 .rose-pale 		{     background-color: #778899; }
@@ -38,7 +38,7 @@ h1 				{ color : rgb(255,255,255) ; }	/** caractere fenetre active blanc ****/
 /************************************************/
 .bleu-fonce		{     background-color: #8B0000; }
 .rose-fonce		{     background-color: #8B0000; }
-.violet-fonce	{     background-color: #8B0000; }/**        rouge foncé         *****/
+.violet-fonce	{     background-color: #8B0000; }/**        rouge foncï¿½         *****/
 .vert-fonce		{     background-color: #8B0000; }
 .jaune-fonce	{     background-color: #8B0000; }
 
