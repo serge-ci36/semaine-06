@@ -1,23 +1,18 @@
 /*************************************************************************************/
-body {	background-color:rgb(0,0,0) /** gris foncÃ© **/; 
-		height: 100% ;
-		margin:0px ;
-		overflow-x: hidden /*** suppression scroll bar horizontale ****/ ;}
+body {	height: 100% ;
+		margin-top:10px ;
+		overflow-x: hidden /*** suppression scroll bar horizontale ****/ ; }
 
-/********** DÃ©finition du haut de page **********************************************/		
-header {	background-color:rgb(55,187,210) /** bleu ciel **/;
-			background: url(../images/navbar.png) ;
-			background-position:center;
-			height: 120px;
-			color:rgb(255,255,255) /** blanc **/ ;
-			padding:20px ;
+/********** Définition du haut de page **********************************************/		
+header {	height: 60px;
+			padding:00px ;
 			margin-bottom:5px; 	}
-	
- .img-header {	height: 80px; width:80px ;
-				float:left ; 
-				border: 3px solid white ;
+		
+.img-header {	float:left ;
+				height: 40px; width:40px ;
+				border: 1px solid white ;
 				border-radius:50% ;
-				}
+				margin-top:15px ; margin-left:10px ; }    
 
 .a-gauche { float:left;
 			margin-left: 15px;}
@@ -26,12 +21,34 @@ header {	background-color:rgb(55,187,210) /** bleu ciel **/;
 			margin-right: 15px;}
 			
 h1 {	display: 	inline-block;
-		font-size:	30px;
-		color:		rgb(255,255,255) /** blanc **/ ; }
+		font-size:	30px; }
 		
-/********** DÃ©finition du texte paragraphe **********************************************/		
+/***** Définition des menus *********************/
+ul {
+    list-style-type: none;
+    margin : 0;
+    padding: 0;
+	width:100% ; }
+
+li a {
+    display: inline;
+	float:left ;
+	margin-right : 10px;
+    width: 306px;
+	height:60px ; }
+		
+.active a {		border-top-left-radius:20px;
+				border-top-right-radius:20px;
+				text-align:center ; }
+
+.non-active a {	border-top-left-radius:20px;
+				border-top-right-radius:20px;
+				text-align:center ;  }
+				  
+.non-active h1{ text-align:top ; }
+		
+/********** Définition du texte paragraphe **********************************************/		
 p {	display: 	inline-block;
-    color: 		rgb(255,255,255) /** blanc **/ ;
     font-size: 	20px;
     padding: 	20px;
     margin:		0; 	}		
@@ -40,45 +57,35 @@ p {	display: 	inline-block;
 .img-center {
     display:      block;
     margin-left:  auto;
-    margin-right: auto ; }	
+	margin-right: auto ; }	
 	
-/**** DÃ©finition taille block 1x1 **************************************************/
+/**** Définition taille block 1x1 **************************************************/
 .bloc-1x1 {
     position: relative;
-    height:   264px;
-	border:   5px solid rgb(0,0,0) /** gris foncÃ© **/;
+    height:   240px;
     display: flex;
     align-items: center;
 	padding-bottom: 60px;
-	background: url(../images/ombre2bis.png);  /***** pour mettre ou enlever l ombre *********************************************************/
-	background-repeat: no-repeat;
  }
 	
-/**** DÃ©finition taille block 2x1 ************************************************/
+/**** Définition taille block 1x1 ************************************************/
 .bloc-2x1 {
     position: relative;
-	height:   264px;
-	border:   5px solid rgb(0,0,0) /** gris foncÃ© **/; 	
+	height:   240px;
     display: flex;
     align-items: center;
 	padding-bottom: 60px;
-	background: url(../images/ombre2bis.png) /** (ombre2bis.png) **/ ;  /***** pour mettre ou enlever l ombre *********************************************************/
-	background-repeat: no-repeat;
  }
 
-/**** DÃ©finition taille block 2x2 ***********************************************/
+/**** Définition taille block 1x1 ***********************************************/
 .bloc-2x2 {
     position:	relative;
-	border:		5px solid rgb(0,0,0) /** gris foncÃ© **/;
-	height: 	528px;
+	height: 	480px;
     display: flex;
     align-items: center;
-	padding-bottom: 60px;
-	background: url(../images/ombre2bis.png);  /***** pour mettre ou enlever l ombre *********************************************************/
-	background-repeat: no-repeat;
- }
+	padding-bottom: 60px; }
 	
-/**** DÃ©finition de mise place des blocks ***************************************/
+/**** Définition de mise place des blocks ***************************************/
 .col-md-4, .col-md-6, .col-md-12 {
     padding-right: 0;
     padding-left:  0; }	
@@ -89,35 +96,37 @@ p {	display: 	inline-block;
     margin-left:   0px;
     margin-right:  0px; }
 	
-/******** suppression bordure D et G ********************************************/	
+/******** suppression dordure D et G ********************************************/	
 .row {
     margin-right: -5px ;
     margin-left:  -5px ; 	}	
 	
-/**** DÃ©finition des curseurs **************************************************/
+/**** Définition des curseurs **************************************************/
 .c-type1 {
+    display: inline-block;
 	float: right;
 	margin-right: 15px;
-	margin-top: 27px;
-	width: 15px;
-	height: 15px;
-	background: url(../images/c-type1-blanc.png); }
+	margin-top: 19px; /*** pour changer la position vertical des curseurs ****/
+	width: 30px;  /*** pour changer la taille des curseurs ****/
+	height: 30px; /*** pour changer la taille des curseurs ****/
+	background: url(c-type1-blanc.png); }
 	
 .c-type2 {
+    display: inline-block;
 	float: right;
 	margin-right: 15px;
-	margin-top: 24px;
-	width: 15px;
-	height: 15px;
-	background: url(../images/c-type2-blanc.png); }
+	margin-top: 19px; /*** pour changer la position vertical des curseurs ****/
+	width: 30px; /*** pour changer la taille des curseurs ****/
+	height: 30px;/*** pour changer la taille des curseurs ****/
+	background: url(c-type2-blanc.png); }
 
-.c-gris 				{	background: url(../images/c-type1-gris.png) ;}
+.c-gris 				{	background: url(c-type1-gris.png) ;}
 
-.lien:hover .c-type1 	{	background: url(../images/c-type1-gris.png) ;}
+.lien:hover .c-type1 	{	background: url(c-type1-gris.png) ;}
 
-.lien:hover .c-gris 	{	background: url(../images/c-type1-blanc.png);}
+.lien:hover .c-gris 	{	background: url(c-type1-blanc.png);}
 
-.lien:hover .c-type2 	{	background: url(../images/c-type2-gris.png) ;}
+.lien:hover .c-type2 	{	background: url(c-type2-gris.png) ;}
 
 .c-type1, 
 .c-type2, 
@@ -126,21 +135,18 @@ p {	display: 	inline-block;
 .lien:hover .c-type1, 
 .lien:hover .c-type2, 
 .lien:hover .c-type1 .c-gris,
-.lien:hover .c-type2 .c-gris { background-size: 15px 15px ; background-repeat: no-repeat ; }
+.lien:hover .c-type2 .c-gris { background-size: 30px 30px ; background-repeat: no-repeat ; }
 	
-/**** DÃ©finition de la couleur grise pour le texte et curseur **************************/
-.gris {	color: rgb(0,0,0) ; font-weight: 600; }	
  
-.lien:hover p		{ color: rgb( 64, 64, 64);} /**** texte survolÃ© blanc > gris********/ 
+.lien:hover p		{ color: rgb( 64, 64, 64);} /**** texte survolé blanc > gris********/ 
 	
-.lien:hover p.gris	{ color: rgb(245,245,245);} /**** texte survolÃ© gris > blanc********/
+.lien:hover p.gris	{ color: rgb(245,245,245);} /**** texte survolé gris > blanc********/
 
-/**** DÃ©finition de la position des boites fonces **************************************/
+/**** Définition de la position des boites fonces **************************************/
 .lien {
     position:absolute;
-    bottom:0px;
+    bottom:0;
     left:0px;
     width:100%;
-    height: 60px;
-    font-weight: 600; }
+	height: 60px; }
 	
