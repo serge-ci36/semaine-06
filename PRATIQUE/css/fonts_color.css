@@ -1,4 +1,4 @@
-/*** header ***************************************************************************/
+﻿/*** header ***************************************************************************/
 body {	background-color:							rgb(000,000,000) ; }	/** noir **/
 header {	background-color:						rgb(000,000,000) ; }	/** noir **/ 
 
@@ -11,21 +11,21 @@ header {	background-color:						rgb(000,000,000) ; }	/** noir **/
 .bloc-2x1 { background: url(../images/back-box.png); }	/*** pour mettre ou enlever l ombre ***/
 .bloc-2x2 {	background: url(../images/back-box.png); }	/*** pour mettre ou enlever l ombre ***/
 .bloc-1x1, .bloc-2x1, .bloc-2x2 {background-position: left top, right bottom ; }
-/********** D�finition des couleurs blocks ********************************************/	
+/********** Définition des couleurs blocks ********************************************/	
 	
-p {	color: 		rgb(255,255,255) ; } /** caract�res des liens blanc **/ 
+p {	color: 		rgb(255,255,255) ; } /** caractères des liens blanc **/ 
 
-/***** D�finition des menus ***********************************************************/
+/***** Définition des menus ***********************************************************/
 .active a		{	background-color:#8B0000 ; } /** fond onglet actif ****************/  
 .non-active a	{	background-color:rgb(40,40,40); } /** fond onglet inactif  ********/
 
 h1 				{ color : rgb(255,255,255) ; }	/** caractere fenetre active blanc ****/ 
 
-.non-active h1			{ color : #696969 ; } /** fenetre iactive gris fonc�  *********/ 
+.non-active h1			{ color : #696969 ; } /** fenetre iactive gris foncé  *********/ 
 
-.non-active h1:hover	{ color : white ; } /****** �claici les menus inactifs ********/
+.non-active h1:hover	{ color : white ; } /****** éclaici les menus inactifs ********/
 
-/**** D�finition des couleurs *********************************************************/
+/**** Définition des couleurs *********************************************************/
 .blanc-pale 	{     background-color: #778899; } /*** fond box **********************/
 /************************************************/
 .rose-pale 		{     background-color: #778899; }
@@ -38,7 +38,7 @@ h1 				{ color : rgb(255,255,255) ; }	/** caractere fenetre active blanc ****/
 /************************************************/
 .bleu-fonce		{     background-color: #8B0000; }
 .rose-fonce		{     background-color: #8B0000; }
-.violet-fonce	{     background-color: #8B0000; }/**        rouge fonc�         *****/
+.violet-fonce	{     background-color: #8B0000; }/**        rouge foncé         *****/
 .vert-fonce		{     background-color: #8B0000; }
 .jaune-fonce	{     background-color: #8B0000; }
 
