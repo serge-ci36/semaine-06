@@ -34,7 +34,7 @@ li a {
     display: inline;
 	float:left ;
 	margin-right : 10px;
-    width: 306px;
+    width: 300px;
 	height:60px ; }
 		
 .active a {		border-top-left-radius:20px;
@@ -84,6 +84,14 @@ p {	display: 	inline-block;
     display: flex;
     align-items: center;
 	padding-bottom: 60px; }
+	
+/**** Définition taille block 1x1 ***********************************************/
+.bloc-2x4 {
+    position:	relative;
+	height: 	720px;
+    display: flex;
+    align-items: center;
+	padding-bottom: 60px; }	
 	
 /**** Définition de mise place des blocks ***************************************/
 .col-md-4, .col-md-6, .col-md-12 {

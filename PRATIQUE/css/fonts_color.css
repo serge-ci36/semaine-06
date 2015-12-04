@@ -6,11 +6,12 @@ header {	background-color:						rgb(000,000,000) ; }	/** noir **/
 .bloc-1x1 { border:   	5px solid					rgb(000,000,000) ;	}	/** noir **/
 .bloc-2x1 { border:   	5px solid 					rgb(000,000,000) ;	}	/** noir **/ 	
 .bloc-2x2 {	border:		5px solid 					rgb(000,000,000) ;	}	/** noir **/
+.bloc-2x4 {	border:		5px solid 					rgb(000,000,000) ;	}	/** noir **/
 			
-.bloc-1x1 { background:	url(../images/back-box.png); }	/*** pour mettre ou enlever l ombre ***/
-.bloc-2x1 { background: url(../images/back-box.png); }	/*** pour mettre ou enlever l ombre ***/
-.bloc-2x2 {	background: url(../images/back-box.png); }	/*** pour mettre ou enlever l ombre ***/
-.bloc-1x1, .bloc-2x1, .bloc-2x2 {background-position: left top, right bottom ; }
+.bloc-1x1 { background:	url(../images/back-box-xs.png); }	/*** pour mettre ou enlever l ombre ***/
+.bloc-2x1 { background: url(../images/back-box-s.png); }	/*** pour mettre ou enlever l ombre ***/
+.bloc-2x2 {	background: url(../images/back-box-m.png); }	/*** pour mettre ou enlever l ombre ***/
+.bloc-2x4 {	background-color :rgb(40,40,40); }	/*** pour mettre ou enlever l ombre ***/
 /********** Définition des couleurs blocks ********************************************/	
 	
 p {	color: 		rgb(255,255,255) ; } /** caractères des liens blanc **/ 
@@ -21,7 +22,7 @@ p {	color: 		rgb(255,255,255) ; } /** caractères des liens blanc **/
 
 h1 				{ color : rgb(255,255,255) ; }	/** caractere fenetre active blanc ****/ 
 
-.non-active h1			{ color : #696969 ; } /** fenetre iactive gris foncé  *********/ 
+.non-active h1			{ color : #696969 ; } /** fenetre iactive gris ****************/ 
 
 .non-active h1:hover	{ color : white ; } /****** éclaici les menus inactifs ********/
 
