@@ -34,8 +34,15 @@ li a {
     display: inline;
 	float:left ;
 	margin-right : 10px;
-    width: 300px;
+    width: 15%;
 	height:60px ; }
+
+.aide {
+    display: inline;
+	float:left ;
+	margin-right : 10px;
+    width: 300px;
+	height:60px ; }	
 		
 .active a {		border-top-left-radius:20px;
 				border-top-right-radius:20px;
@@ -65,8 +72,9 @@ p {	display: 	inline-block;
     height:   240px;
     display: flex;
     align-items: center;
-	padding-bottom: 60px;
- }
+padding-bottom: 60px; }
+
+.bloc-1x1 img {	border-radius:10px;}
 	
 /**** Définition taille block 1x1 ************************************************/
 .bloc-2x1 {

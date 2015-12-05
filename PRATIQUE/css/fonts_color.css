@@ -17,8 +17,9 @@ header {	background-color:						rgb(000,000,000) ; }	/** noir **/
 p {	color: 		rgb(255,255,255) ; } /** caractères des liens blanc **/ 
 
 /***** Définition des menus ***********************************************************/
-.active a		{	background-color:#8B0000 ; } /** fond onglet actif ****************/  
-.non-active a	{	background-color:rgb(40,40,40); } /** fond onglet inactif  ********/
+.active a, .active a .aide{	background-color:#8B0000 ; } /** fond onglet actif ********/  
+.non-active a, 
+.non-active a .aide	{	background-color:rgb(40,40,40); }/** fond onglet inactif  *****/
 
 h1 				{ color : rgb(255,255,255) ; }	/** caractere fenetre active blanc ****/ 
 
