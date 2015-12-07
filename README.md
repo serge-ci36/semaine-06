@@ -13,4 +13,4 @@ Visible ----> http://htmlpreview.github.io/?https://github.com/serge-ci36/semain
 
 Mise en pratique exercice 2 pour le fun !
 
-Visible ----> http://htmlpreview.github.io/?https://github.com/serge-ci36/semaine-06/blob/master/PRATIQUE/home.html
+Visible ----> http://htmlpreview.github.io/?https://github.com/serge-ci36/semaine-06/blob/master/PRATIQUE/HOME.html
