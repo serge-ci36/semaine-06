@@ -30,7 +30,7 @@ h1 				{ color : rgb(255,255,255) ; }	/** caractere fenetre active blanc ****/
 /**** Définition des couleurs *********************************************************/
 .blanc-pale 	{     background-color: #778899; } /*** fond box **********************/
 /************************************************/
-.rose-pale 		{     background-color: #778899; }
+.rose-pale 		{     background-color: #F08080; }
 .violet-pale 	{     background-color: #778899; }
 .vert-pale 		{     background-color: #778899; }
 .jaune-pale 	{     background-color: #778899; }
@@ -39,7 +39,7 @@ h1 				{ color : rgb(255,255,255) ; }	/** caractere fenetre active blanc ****/
 .blanc-fonce	{     background-color: #8B0000; } /*** fond des sous-box *************/
 /************************************************/
 .bleu-fonce		{     background-color: #8B0000; }
-.rose-fonce		{     background-color: #8B0000; }
+.rose-fonce		{     background-color: #CD5C5C; }
 .violet-fonce	{     background-color: #8B0000; }/**        rouge foncé         *****/
 .vert-fonce		{     background-color: #8B0000; }
 .jaune-fonce	{     background-color: #8B0000; }
