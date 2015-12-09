@@ -14,11 +14,7 @@ header {	background-color:						rgb(000,000,000) ; }	/** noir **/
 .bloc-2x4 {	background-color :rgb(40,40,40); }	/*** pour mettre ou enlever l ombre ***/
 /********** Définition des couleurs blocks ********************************************/	
 	
-p {	color: 		rgb(150,150,150) ; } /** caractères des liens blanc **/ 
-
-.lien:hover p		{ color: rgb( 255, 255, 255);} /**** texte survolé blanc > gris*******/ 
-	
-.lien:hover p.gris	{ color: rgb(245,245,245);} /**** texte survolé gris > blanc*******/
+p {	color: 		rgb(255,255,255) ; } /** caractères des liens blanc **/ 
 
 /***** Définition des menus ***********************************************************/
 .active a, .active a .aide{	background-color:#8B0000 ; } /** fond onglet actif ********/  
@@ -43,7 +39,7 @@ h1 				{ color : rgb(255,255,255) ; }	/** caractere fenetre active blanc ****/
 .blanc-fonce	{     background-color: #8B0000; } /*** fond des sous-box *************/
 /************************************************/
 .bleu-fonce		{     background-color: #8B0000; }
-.rose-fonce		{     background-color: rgb(110,50,50); }
+.rose-fonce		{     background-color: #CD5C5C; }
 .violet-fonce	{     background-color: #8B0000; }/**        rouge foncé         *****/
 .vert-fonce		{     background-color: #8B0000; }
 .jaune-fonce	{     background-color: #8B0000; }
