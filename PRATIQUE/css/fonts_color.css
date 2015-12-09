@@ -16,7 +16,7 @@ header {	background-color:						rgb(000,000,000) ; }	/** noir **/
 	
 p {	color: 		rgb(150,150,150) ; } /** caractères des liens blanc **/ 
 
-.lien:hover p		{ color: rgb( 255, 255, 255);} /**** texte survolé blanc > gris*******/ 
+.lien:hover p		{ color: rgb( 255, 255, 255);} /**** texte survolé blanc > gris****/ 
 	
 .lien:hover p.gris	{ color: rgb(245,245,245);} /**** texte survolé gris > blanc*******/
 
